@@ -1,3 +1,77 @@
 .secimg{
+    position: static;
+}
+.selections{
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: transparent;
+}
+.tt > h1{
+    background-color: transparent;
+
+}
+.tt{
+    width: 103%;
+    background-color: transparent;
+    position: sticky;
+    align-items: center;
+
+}
+.ss{
+    background-color: transparent;
+
+}
+.selections > h2 ,p {
+    background-color: transparent;
+
+}
+.over1{
+    display: flex;
+    justify-content: center ;
+    gap: 100px;
+    flex-direction: row;
+    padding: 20px ;
+    background-color: transparent;
+    width: 80%;
+    margin: 0 120px;
+    position: absolute;
+    /* bottom: 520px; */
+    right: 60px;
+}
+.over2{
+    display: flex;
+    justify-content: center ;
+    gap: 100px;
+    flex-direction: row;
+    padding: 20px ;
+    background-color: transparent;
+    width: 80%;
+    margin: 0 120px;
+    /* position: relative;
+    bottom: 520px; */
+}
+
+.btt{
     position: relative;
+    /* bottom: 500px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.seconda{
+    margin-top: 400px;
+}
+.btt2{
+    position: relative;
+    /* bottom: 500px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }

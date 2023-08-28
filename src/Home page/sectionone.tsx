@@ -61,16 +61,17 @@ const Sectionone = () => {
             </p>
             </div>
         </article>
-        <article className='mb-5 '>
-        <div className='what-is  '>
+        <article className='mb-5 d-flex '>
+        
+        <div className='second-box text-left '>
+        <h1>What is Odd-Web?</h1>
+            <p>Odd-Web is Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sit quisquam quas numquam debitis quo veniam quasi asperiores, fugiat exercitationem. Tempora ex id, voluptas tempore laboriosam cumque amet. Amet, voluptatum.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam unde dolore similique omnis.</p>
+            
+        </div>
+        <div className='what-is p-5  '>
                
-               </div>
-            <div className='second-box text-left '>
-            <h1>What is Odd-Web?</h1>
-                <p>Odd-Web is Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sit quisquam quas numquam debitis quo veniam quasi asperiores, fugiat exercitationem. Tempora ex id, voluptas tempore laboriosam cumque amet. Amet, voluptatum.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus magnam unde dolore similique omnis.</p>
-                
-            </div>
+        </div>
             
             
         </article>
