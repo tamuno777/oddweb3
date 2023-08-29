@@ -2,6 +2,10 @@ article {
     
     margin: auto auto 50px auto;
   }
+  .oth>button:hover{
+    border-color: aqua;
+  color: aquamarine;
+  }
   .category,
   .title {
     position: -webkit-sticky;
@@ -47,9 +51,13 @@ article {
     color: rgb(231, 46, 77);
     border: 1px solid rgb(231, 46, 77);
   }
+
   .links > a{
     text-decoration: none;
     color: gray;
+  }
+  .links > a:hover{
+    color: rgb(231, 46, 77);
   }
   .links{
     display: flex;

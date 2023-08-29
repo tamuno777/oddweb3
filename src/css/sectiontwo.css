@@ -1,77 +1,75 @@
-.secimg{
-    position: static;
-}
-.selections{
-    margin: 20px 0;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    text-align: left;
+.tt, .ss, .selections,.st{
     background-color: transparent;
-}
-.tt > h1{
-    background-color: transparent;
-
 }
 .tt{
-    width: 103%;
-    background-color: transparent;
-    position: sticky;
-    align-items: center;
-
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    
+}
+.st{
+    width: 70%;
+    display: flex;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    
 }
 .ss{
+    width: 70%;
+    padding-top: 50vh;
+    
+
+
+
+}
+.tt > h1  {
     background-color: transparent;
+    display: flex;
+    line-height: 50vh;
+    position: sticky;
+    top: 0;
+}
+.st > h1  {
+    background-color: transparent;
+    display: flex;
+    line-height: 50vh;
+    position: sticky;
+    top: 0;
+}
+.selections{
+    /* padding: 20px 0; */
+    
 
 }
 .selections > h2 ,p {
     background-color: transparent;
-
+    flex-wrap: wrap;
 }
 .over1{
-    display: flex;
-    justify-content: center ;
-    gap: 100px;
     flex-direction: row;
-    padding: 20px ;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 100px;
     background-color: transparent;
-    width: 80%;
-    margin: 0 120px;
-    position: absolute;
-    /* bottom: 520px; */
-    right: 60px;
+   
+
+}
+.banner{
+    background-image: url(../../public/mesh.png);
+    background-repeat: no-repeat;
+    background-position: top ;
+    background-color: transparent;
+    /* background-size: contain; */
+
 }
 .over2{
-    display: flex;
-    justify-content: center ;
-    gap: 100px;
     flex-direction: row;
-    padding: 20px ;
-    background-color: transparent;
-    width: 80%;
-    margin: 0 120px;
-    /* position: relative;
-    bottom: 520px; */
-}
+    justify-content: center;
+    gap: 100px;
+    margin: 0 100px;
+   
 
-.btt{
-    position: relative;
-    /* bottom: 500px; */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.seconda{
-    margin-top: 400px;
-}
-.btt2{
-    position: relative;
-    /* bottom: 500px; */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
 }

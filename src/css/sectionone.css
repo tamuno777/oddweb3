@@ -13,6 +13,11 @@
     color: rgb(231, 46, 77);
     border: 1px solid rgb(231, 46, 77);
 }
+.buttonn:hover{
+  border-color: aqua;
+  color: aquamarine;
+
+}
 .hh{
     background-color: transparent;
 }
